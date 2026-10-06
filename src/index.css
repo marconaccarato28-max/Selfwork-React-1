@@ -1,16 +1,28 @@
-.title {
-color: blue;
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+ 
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: black;
+padding: 15px;
+}
+ 
+nav a {
+color: white;
+margin-right: 20px;
+text-decoration: none;
+}
+ 
+header {
+margin-top: 80px;
 text-align: center;
 }
-
-.label {
-display: block;
-margin-bottom: 10px;
-font-size: 20px;
-}
-
-.input {
-width: 300px;
-padding: 10px;
-font-size: 20px;
+ 
+ul {
+width: 200px;
+margin: 20px auto;
 }
