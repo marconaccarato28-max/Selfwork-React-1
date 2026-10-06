@@ -10,19 +10,34 @@ width: 100%;
 background-color: black;
 padding: 15px;
 }
- 
+
 nav a {
 color: white;
 margin-right: 20px;
 text-decoration: none;
 }
- 
+
 header {
 margin-top: 80px;
 text-align: center;
 }
- 
+
 ul {
 width: 200px;
 margin: 20px auto;
+}
+
+button {
+margin: 5px;
+padding: 8px 12px;
+}
+
+form {
+margin-top: 20px;
+}
+
+input {
+display: block;
+margin: 10px 0;
+padding: 8px;
 }
