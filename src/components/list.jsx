@@ -1,11 +1,11 @@
-function List({ names }) {
-return (
-<ul>
-{names.map((name, index) => (
-<li key={index}>{name}</li>
-))}
-</ul>
-);
+function List({ children }) {
+return <ul>{children}</ul>;
 }
+
+function Item({ children }) {
+return <li>{children}</li>;
+}
+
+List.Item = Item;
 
 export default List;
