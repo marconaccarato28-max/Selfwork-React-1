@@ -4,6 +4,7 @@ import Header from "./components/header";
 import List from "./components/list";
 import Counter from "./components/counter";
 import Form from "./components/Form";
+import LoadingData from "./components/LoadingData";
 
 function App() {
 const [name, setName] = useState("");
@@ -60,6 +61,8 @@ Invia
 <p>Email: {user.email}</p>
 </div>
 )}
+
+<LoadingData />
 </>
 );
 }
